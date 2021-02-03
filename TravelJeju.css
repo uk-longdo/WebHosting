@@ -31,7 +31,7 @@
     border-radius: 10xp;
     background-color: #1e1e1e;
     color: #fff;
-    
+    margin-right: 20px;
 }
 .seach_i{
     cursor: pointer;
@@ -42,7 +42,26 @@
     width: 20%;
     height: 30px;
    color:  #fff;
+    
 }
+/*로그인 회원가입*/
+/*
+#cm_header .cm_log{
+    margin-right: 10px;
+    width: 170px;
+    height: 30px;
+    text-align: center;
+    background: #fff;
+}
+#cm_header .cm_logup{
+    
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    background: #1b5ac2;
+}
+*/
+
 
 /*메뉴바*/
 .cm_menu{
@@ -53,14 +72,14 @@
     color: #1b5ac2;
 }
 .cm_menu span{
-    color: #fff;
+    color: #858585;
     padding-right: 20px;
     background-color: #1e1e1e;
     cursor: pointer;
 } 
 #cm_body{
     width: 100%;
-    height: 800px;
+    height: 600px;
     object-fit: cover;
     position: relative;
     color: #fff;
@@ -76,14 +95,23 @@
     height: 100%;
     background: rgba(0,0,0,0.3);
 }
-#cm_body .title{
+/*메인 이미지 글씨*/
+#cm_body > .title > .t1{
     font-size: 50px;
-    position: absolute;
+    font-weight: 700;
 }
-#cm_body span {
-    font-size: 24px;
+#cm_body > .title{
+    font-size: 50px;
+    font-weight: 700;
     position: absolute;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #858585;
 }
+
 
 
 #cm_body_poin{

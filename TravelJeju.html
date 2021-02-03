@@ -25,6 +25,7 @@
             <div class="seach_i">
               <i class="fa fa-search" aria-hidden="true"></i>
             </div>
+            
           </div>
            
             <div class="cm_menu">
@@ -33,14 +34,20 @@
                 <span>렌터카</span>
                 <span>레저</span>
                 <span>미술</span>
-                <span>관광</span>            
+                <span>관광</span>
+                <span class="cm_log">로그인</span>
+                <span class="cm_logup">회원가입</span>
+                       
             </div>
     </header>
     <div id="cm_body">
-        <img src="https://www.criteo.com/kr/wp-content/uploads/sites/7/2020/04/white-airplane-728824.jpg">
-         <div class="title">어디로든 가자!</div>
-        <span>안녕하세요</span>
-        <span>어디로 여행을 떠날까요?</span>
+        <img src="fffffuuukkkk.jpg">
+         
+         <div class="title">
+            <span class="t1"></span>
+            <span>안녕하세요</span>
+            <span>어디로 여행을 떠날까요?</span>
+        </div>
     </div>
     
     <div id="cm_body_poin">
@@ -192,6 +199,13 @@
           alert("점검중");
       }); 
     });
+      $(".cm_log").click(function(){
+          location.href='login.html';
+      });
+          $(".cm_logup").click(function(){
+          alert("회원가입 해보던지");
+      });
+                        
     </script>
 </body>
 </html>
